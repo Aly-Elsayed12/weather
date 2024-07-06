@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="">
+      <div class="container d-flex justify-content-between p-4">
+        <div class="logo text-white d-flex justify-content-between gap-3">
+          <img src="/image/logo.png" class="w-75" alt="logo">
+          <div class="logo-text">
+            <h1 class="mb-0">Weather</h1>
+            <span class="text-secondary">tagline goes here</span>
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active-a" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="container">
+        <div class="sreach d-flex justify-content-center">
+          <input type="text" class="form-control w-50 p-3 rounded-5 mx-auto" id="search-input" placeholder="Find your location...">
+          <button  class="btn btn-info rounded-5 " id="find-btn">Find</button>
+        </div>
+      </div>
+    </div>
+    <div id="data">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 p-0 day" id="dayOne">
+          </div>
+          <div class="col-4 p-0 day " id="dayTwo">
+          </div>
+          <div class="col-4 p-0 day" id="dayThree">
+            <div class="inner mb-4">
+              <header class="d-flex justify-content-between px-2 py-1 fs-5">
+                <p>Saturday</p>
+                <p>6July</p>
+              </header>
+              <div class="body px-2 pt-5">
+                <h3 class="text-white ">32<span class="position-relative">o</span>C</h3>
+                <img src="" alt="">
+              </div>
+              <span class="px-2" >Partly cloudy</span>
+              <div class="footer mt-3 px-2 d-flex justify-content-between">
+                <span class="icon-1">
+                  <img src="/image/icon-umberella.png"  alt="">
+                  121
+                </span>
+                <span class="icon-2">
+                  <img src="/image/icon-wind.png" alt="">
+                  1221
+                </span>
+                <span class="icon-3">
+                  <img src="/image/icon-compass.png" alt="">
+                  12
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main> 
+  <footer>
+    <div class="container">
+      
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
